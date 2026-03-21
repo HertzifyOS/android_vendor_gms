@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Lockscreen customize button -->
+    <bool name="long_press_keyguard_customize_lockscreen_enabled">true</bool>
+
+    <!-- Safety hub -->
+    <string name="config_preferredEmergencySosPackage">com.google.android.apps.safetyhub</string>
+
+    <!-- Hearing devices (Sound Amplifier / Scribe) -->
+    <string-array name="config_quickSettingsHearingDevicesRelatedToolName">
+        <item>com.google.audio.hearing.visualization.accessibility.scribe/com.google.audio.hearing.visualization.accessibility.scribe.MainActivity</item>
+        <item>com.google.audio.hearing.visualization.accessibility.scribe/com.google.audio.hearing.visualization.accessibility.dolphin.ui.visualizer.TimelineActivity</item>
+    </string-array>
+</resources>

@@ -1,0 +1,9 @@
+# All unpinned files are extracted from caiman BP4A.260205.002
+
+# Dialer
+product/etc/permissions/com.google.android.dialer.support.xml
+product/framework/com.google.android.dialer.support.jar
+product/priv-app/GoogleDialer/GoogleDialer.apk;OVERRIDES=Dialer;PRESIGNED
+
+# Messages
+product/priv-app/PrebuiltBugle/PrebuiltBugle.apk;OVERRIDES=messaging;PRESIGNED

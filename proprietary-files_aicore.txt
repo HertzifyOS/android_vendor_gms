@@ -1,0 +1,4 @@
+# All unpinned files are extracted from caiman BP4A.260205.002
+
+# AICore
+product/priv-app/AICorePrebuilt-aicore_20250130.00_RC01/AICorePrebuilt-aicore_20250130.00_RC01.apk;PRESIGNED
