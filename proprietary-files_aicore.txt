@@ -1,0 +1,4 @@
+# Extracted from blazer-ota-cp2a.260605.012
+
+# AICore
+product/priv-app/AICorePrebuilt-aicore_20260302.01_RC00/AICorePrebuilt-aicore_20260302.01_RC00.apk;PRESIGNED
