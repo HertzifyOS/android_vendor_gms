@@ -56,6 +56,9 @@ process_xml() {
     sed -i "s|\^attr-private|attr|g" $file
     sed -i "s|com.google.android.apps.nexuslauncher|com.android.launcher3|g" $file
     sed -i "s|com.google.android.apps.wallpaper|com.android.wallpaper|g" $file
+    sed -i "s|com.google.android.dialer.extensions.GoogleDialtactsActivity|com.android.dialer.DialtactsActivity|g" $file
+    sed -i "s|com.google.android.dialer|com.android.dialer|g" $file
+    sed -i "s|com.google.android.apps.messaging|com.android.messaging|g" $file
 }
 
 export -f process_xml

@@ -21,7 +21,7 @@
         <item>com.google.android.apps.restore</item>
     </string-array>
     <string-array name="config_priorityOnlyDndExemptPackages">
-        <item>com.google.android.dialer</item>
+        <item>com.android.dialer</item>
         <item>com.android.server.telecom</item>
         <item>android</item>
         <item>com.android.systemui</item>
