@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer-array name="config_carrier_for_mobile_network_toggle_disable">
+        <item>19</item>
+        <item>25</item>
+        <item>28</item>
+    </integer-array>
+    <integer-array name="config_carrier_for_wifi_scorer_toggle_off">
+        <item>1839</item>
+    </integer-array>
+    <string-array name="config_settings_slices_accessibility_components">
+        <item>com.google.android.marvin.talkback/com.android.switchaccess.SwitchAccessService</item>
+        <item>com.google.android.marvin.talkback/com.google.android.marvin.talkback.TalkBackService</item>
+        <item>com.google.android.marvin.talkback/com.google.android.accessibility.selecttospeak.SelectToSpeakService</item>
+        <item>com.google.android.marvin.talkback/com.google.android.accessibility.accessibilitymenu.AccessibilityMenuService</item>
+    </string-array>
+    <string-array name="slice_allowlist_package_names">
+        <item>com.google.android.gms</item>
+        <item>com.google.android.googlequicksearchbox</item>
+    </string-array>
+    <string-array name="slice_allowlist_package_names_for_dev">
+        <item>com.google.android.apps.search.assistant.surfaces.voice.devapp</item>
+    </string-array>
+</resources>

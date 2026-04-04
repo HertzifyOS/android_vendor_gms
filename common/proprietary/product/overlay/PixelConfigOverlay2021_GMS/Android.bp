@@ -1,0 +1,4 @@
+runtime_resource_overlay {
+    name: "PixelConfigOverlay2021_GMS",
+    product_specific: true,
+}

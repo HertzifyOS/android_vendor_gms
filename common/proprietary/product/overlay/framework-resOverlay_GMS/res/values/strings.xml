@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="config_deviceProvisioningPackage">com.google.android.apps.work.oobconfig</string>
+    <string name="config_fingerprintFrrTargetComponent">com.android.settings/com.google.android.settings.biometrics.combination.ui.view.FrrCommonNotificationActivity</string>
+    <string name="config_wallpaperCropperPackage">com.android.wallpaper</string>
+</resources>
