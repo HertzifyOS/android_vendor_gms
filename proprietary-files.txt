@@ -1,4 +1,5 @@
 # Extracted from blazer-ota-cp2a.260605.012
+# raven-ota-cp2a.260605.012
 
 # AndroidAuto
 product/priv-app/AndroidAutoStubPrebuilt/AndroidAutoStubPrebuilt.apk;PRESIGNED
@@ -8,8 +9,8 @@ product/app/Chrome-Stub/Chrome-Stub.apk;OVERRIDES=webview,Browser2,Jelly;PRESIGN
 product/app/Chrome/Chrome.apk.gz
 product/app/TrichromeLibrary-Stub/TrichromeLibrary-Stub.apk;PRESIGNED
 product/app/TrichromeLibrary/TrichromeLibrary.apk.gz
-product/app/WebViewGoogle-Stub/WebViewGoogle-Stub.apk;OVERRIDES=webview;PRESIGNED
-product/app/WebViewGoogle/WebViewGoogle.apk.gz
+product/app/WebViewGoogle-Stub/WebViewGoogle-Stub.apk;OVERRIDES=webview;PRESIGNED|481e837d0870cbb85f94c61490746cc4ec642f0a
+product/app/WebViewGoogle/WebViewGoogle.apk.gz|f52d9c1466a1d5c3f0dec165494420cbfb19c66c
 product/priv-app/ScribePrebuilt_v8.7.880674799/ScribePrebuilt_v8.7.880674799.apk;PRESIGNED
 
 # Calculator
