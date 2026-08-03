@@ -32,6 +32,10 @@ PRODUCT_PRODUCT_PROPERTIES += \
 PRODUCT_PACKAGES += \
 	GoogleSettingsOverlay
 
+# Use gestures by default
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.boot.vendor.overlay.theme=com.android.internal.systemui.navbar.gestural
+    
 # SetupWizard Props
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.setupwizard.enterprise_mode=1 \
