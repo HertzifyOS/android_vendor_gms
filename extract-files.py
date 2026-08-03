@@ -150,6 +150,31 @@ def run_generate_overlays(src: str):
         check=False,
     )
 
+def merge_large_files():
+    proprietary_dir = COMMON_DIR / 'proprietary'
+
+    for firstpart in proprietary_dir.rglob('*.part00'):
+        outfile = Path(str(firstpart)[:-7])
+
+        parts = sorted(
+            outfile.parent.glob(outfile.name + '.part*')
+        )
+
+        if not parts:
+            continue
+
+        print(f'[*] Merging: {outfile}')
+
+        with outfile.open('wb') as out:
+            for part in parts:
+                print(f'    -> {part.name}')
+                with part.open('rb') as src:
+                    while chunk := src.read(1024 * 1024):
+                        out.write(chunk)
+
+        for part in parts:
+            part.unlink()
+
 def split_large_files():
     max_size = 50 * 1024 * 1024
     proprietary_dir = COMMON_DIR / 'proprietary'
@@ -225,6 +250,8 @@ if __name__ == '__main__':
     ]:
         if not _f.exists():
             _f.touch()
+
+    merge_large_files()
 
     utils = ExtractUtils.device(module)
     utils.run()
