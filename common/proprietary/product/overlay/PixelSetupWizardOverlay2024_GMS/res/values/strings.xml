@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="demo_device_admin_signature_checksum">ZUfHPe4VDBA5gL_f_lXMmgEdeF3WlKX5mv2CBbyvH4A</string>
+
+    <string name="pearl_action">com.google.android.apps.pixel.agent.app.suw.SET_UP</string>
+
+    <string name="pearl_package">com.google.android.apps.pixel.agent</string>
+</resources>

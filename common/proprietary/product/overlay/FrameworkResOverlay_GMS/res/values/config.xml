@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string-array name="config_locationExtraPackageNames" translatable="false">
+        <item>com.google.android.gms.location.history</item>
+    </string-array>
+
+    <!-- Package name(s) containing location provider support. These packages will be auto-granted
+         several permissions by the system, and should be system packages. -->
+    <string-array name="config_locationProviderPackageNames" translatable="false">
+        <item>com.google.android.gms</item>
+        <item>com.android.location.fused</item>
+    </string-array>
+
+    <!-- Package name for the device provisioning package. -->
+    <string name="config_deviceProvisioningPackage">com.google.android.apps.work.oobconfig</string>
+
+    <!-- The list of packages that will use ANGLE as the GLES driver -->
+    <string-array name="config_angleAllowList">
+        <item>com.dreamgames.royalmatch</item>
+        <item>com.dts.freefiremax</item>
+        <item>com.dxx.firenow</item>
+        <item>com.gramgames.mergedragons</item>
+        <item>com.ludo.king</item>
+        <item>com.mojang.minecraftpe</item>
+        <item>com.my.defense</item>
+        <item>com.nintendo.zaka</item>
+        <item>com.os.airforce</item>
+        <item>com.playrix.fishdomdd.gplay</item>
+        <item>io.teslatech.callbreak</item>
+        <item>jp.konami.prospia</item>
+        <item>net.peakgames.toonblast</item>
+        <item>com.yottagames.gameofmafia</item>
+        <item>com.Sunborn.SnqxExilium.Glo</item>
+        <item>com.haoplay.game.and.exilium</item>
+        <item>com.rockstargames.gtasa</item>
+        <item>com.h73.jhqyna</item>
+        <item>com.sega.CrazyTaxiplayhaven</item>
+        <item>en.haoplay.and.rm</item>
+        <item>com.netease.g108na</item>
+    </string-array>
+
+    <!-- Whether cv is available on the device. -->
+    <bool name="config_cv_available">true</bool>
+</resources>
