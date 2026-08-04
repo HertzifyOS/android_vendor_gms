@@ -203,7 +203,7 @@ product/priv-app/GoogleRestorePrebuilt-v1007163/GoogleRestorePrebuilt-v1007163.a
 product/priv-app/PartnerSetupPrebuilt/PartnerSetupPrebuilt.apk;PRESIGNED
 product/priv-app/SearchSelectorPrebuilt/SearchSelectorPrebuilt.apk;PRESIGNED
 product/priv-app/SetupWizardPrebuilt_versioned/SetupWizardPrebuilt_versioned.apk;OVERRIDES=Provision;PRESIGNED
-system_ext/priv-app/SetupWizardPixelPrebuilt_versioned/SetupWizardPixelPrebuilt_versioned.apk;OVERRIDES=LineageSetupWizard;PRESIGNED
+system_ext/priv-app/SetupWizardPixelPrebuilt_versioned/SetupWizardPixelPrebuilt_versioned.apk;OVERRIDES=HertzifySetupWizard;PRESIGNED
 
 # Sound
 product/app/SoundAmplifierPrebuilt_v4.91.886631805/SoundAmplifierPrebuilt_v4.91.886631805.apk;PRESIGNED

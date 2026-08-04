@@ -844,7 +844,7 @@ android_app_import {
     apk: "proprietary/system_ext/priv-app/SetupWizardPixelPrebuilt_versioned/SetupWizardPixelPrebuilt_versioned.apk",
     optional_uses_libs: ["androidx.window.extensions", "androidx.window.sidecar"],
     overrides: [
-        "LineageSetupWizard",
+        "HertzifySetupWizard",
     ],
     preprocessed: true,
     presigned: true,
