@@ -151,6 +151,10 @@ product/usr/srec/en-US/voice_match/MARBLE_voice_filter.tflite
 
 # Overlay
 product/overlay/ContactsProvider__blazer__auto_generated_rro_product.apk:product/overlay/ContactsProviderOverlay_GMS.apk;MAKE_COPY_RULE_ONLY
+product/overlay/GlanceableHubConfigOverlay.apk;MAKE_COPY_RULE_ONLY
+product/overlay/GlanceableHubSettingsConfigOverlay2022.apk;MAKE_COPY_RULE_ONLY
+product/overlay/GlanceableHubSettingsConfigOverlay.apk;MAKE_COPY_RULE_ONLY
+product/overlay/GlanceableHubSysuiConfigOverlay.apk;MAKE_COPY_RULE_ONLY
 product/overlay/GoogleConfigOverlay.apk:product/overlay/GoogleConfigOverlay_GMS.apk;MAKE_COPY_RULE_ONLY
 product/overlay/GoogleWebViewOverlay.apk:product/overlay/GoogleWebViewOverlay_GMS.apk;MAKE_COPY_RULE_ONLY
 product/overlay/PixelConfigOverlay2018.apk:product/overlay/PixelConfigOverlay2018_GMS.apk;MAKE_COPY_RULE_ONLY
