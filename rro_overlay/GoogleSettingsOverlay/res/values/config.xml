@@ -1,12 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+           xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Settings intelligence interaction log intent action -->
     <string name="config_settingsintelligence_package_name">com.google.android.settings.intelligence</string>
 
     <!-- List containing the component names of pre-installed screen reader services [DO NOT TRANSLATE] -->
     <string-array name="config_preinstalled_screen_reader_services" translatable="false">
         <item>com.google.android.marvin.talkback/com.google.android.marvin.talkback.TalkBackService</item>
+    </string-array>
+
+    <!-- List containing the component names of pre-installed captioning services [DO NOT TRANSLATE] -->
+    <string-array name="config_preinstalled_captions_services" translatable="false">
+        <item>com.google.audio.hearing.visualization.accessibility.scribe/com.google.audio.hearing.visualization.accessibility.scribe.MainActivity</item>
+    </string-array>
+
+    <!-- List containing the component names of pre-installed audio services [DO NOT TRANSLATE] -->
+    <string-array name="config_preinstalled_audio_services" translatable="false">
+        <item>com.google.android.accessibility.soundamplifier/com.google.android.accessibility.soundamplifier.ui.SoundAmplifierSettingActivity</item>
+        <item>com.google.audio.hearing.visualization.accessibility.scribe/com.google.audio.hearing.visualization.accessibility.dolphin.ui.visualizer.TimelineActivity</item>
+    </string-array>
+
+    <!-- List containing the component names of pre-installed display services [DO NOT TRANSLATE] -->
+    <string-array name="config_preinstalled_display_services" translatable="false">
         <item>com.google.android.marvin.talkback/com.google.android.accessibility.selecttospeak.SelectToSpeakService</item>
     </string-array>
 
@@ -16,6 +31,48 @@
     <!-- List containing the component names of pre-installed interaction control services [DO NOT TRANSLATE] -->
     <string-array name="config_preinstalled_interaction_control_services" translatable="false">
         <item>com.google.android.marvin.talkback/com.android.switchaccess.SwitchAccessService</item>
+        <item>com.google.android.accessibility.switchaccess/com.android.switchaccess.SwitchAccessService</item>
         <item>com.google.android.marvin.talkback/com.google.android.accessibility.accessibilitymenu.AccessibilityMenuService</item>
+    </string-array>
+
+    <!-- Order of accessibility features within each category. -->
+    <string-array name="config_order_screen_reader_services" translatable="false">
+        <item>com.google.android.marvin.talkback/com.google.android.marvin.talkback.TalkBackService</item>
+    </string-array>
+
+    <string-array name="config_order_captions_services" translatable="false">
+        <item>live_caption</item>
+        <item>com.google.audio.hearing.visualization.accessibility.scribe/com.google.audio.hearing.visualization.accessibility.scribe.MainActivity</item>
+        <item>captioning_preference_screen</item>
+        <item>rtt_setting</item>
+    </string-array>
+
+    <string-array name="config_order_audio_services" translatable="false">
+        <item>toggle_audio_description</item>
+        <item>flash_notifications_preference_accessibility</item>
+        <item>com.google.android.accessibility.soundamplifier/com.google.android.accessibility.soundamplifier.ui.SoundAmplifierSettingActivity</item>
+        <item>com.google.audio.hearing.visualization.accessibility.scribe/com.google.audio.hearing.visualization.accessibility.dolphin.ui.visualizer.TimelineActivity</item>
+        <item>hearing_aid_preference</item>
+        <item>audio_adjustment_preference_screen</item>
+    </string-array>
+
+    <string-array name="config_order_display_services" translatable="false">
+        <item>text_reading_options_in_a11y</item>
+        <item>accessibility_color_and_motion</item>
+        <item>reduce_bright_colors_preference</item>
+        <item>magnification_preference_screen</item>
+        <item>com.google.android.marvin.talkback/com.google.android.accessibility.selecttospeak.SelectToSpeakService</item>
+    </string-array>
+
+    <string-array name="config_order_interaction_control_services" translatable="false">
+        <item>com.google.android.marvin.talkback/com.google.android.accessibility.accessibilitymenu.AccessibilityMenuService</item>
+        <item>com.google.android.apps.accessibility.voiceaccess/com.google.android.apps.accessibility.voiceaccess.JustSpeakService</item>
+        <item>vibration_preference_screen</item>
+        <item>com.google.android.marvin.talkback/com.android.switchaccess.SwitchAccessService</item>
+        <item>com.google.android.accessibility.switchaccess/com.android.switchaccess.SwitchAccessService</item>
+        <item>tap_assistance_preference_screen</item>
+        <item>system_controls_preference_screen</item>
+        <item>pointer_and_touchpad</item>
+        <item>physical_keyboard_a11y</item>
     </string-array>
 </resources>
