@@ -43,6 +43,4 @@
         <item>com.netease.g108na</item>
     </string-array>
 
-    <!-- Whether cv is available on the device. -->
-    <bool name="config_cv_available">true</bool>
 </resources>

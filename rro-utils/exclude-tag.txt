@@ -5,6 +5,7 @@ bool:config_biometricFrrNotificationEnabled
 bool:config_bugReportHandlerEnabled
 bool:config_buttonTextAllCaps
 bool:config_carrier_settings_enable
+bool:config_cv_available
 bool:config_fingerprintSupportsGestures
 bool:config_honor_data_retry_timer_for_emergency_network
 bool:config_hspa_data_distinguishable
