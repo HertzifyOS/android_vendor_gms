@@ -6,6 +6,7 @@ bool:config_bugReportHandlerEnabled
 bool:config_buttonTextAllCaps
 bool:config_carrier_settings_enable
 bool:config_cv_available
+bool:config_evenDimmerEnabled
 bool:config_fingerprintSupportsGestures
 bool:config_honor_data_retry_timer_for_emergency_network
 bool:config_hspa_data_distinguishable
@@ -57,6 +58,7 @@ dimen:config_progressBarCornerRadius
 dimen:navigation_bar_gesture_larger_height
 dimen:system_app_widget_background_radius
 dimen:system_app_widget_inner_radius
+integer-array:config_availableEMValueOptions
 integer-array:config_carrier_use_rac
 integer-array:config_face_acquire_biometricprompt_ignorelist
 integer-array:config_face_acquire_enroll_ignorelist
