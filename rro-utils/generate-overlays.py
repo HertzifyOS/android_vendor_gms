@@ -84,6 +84,9 @@ _TEXT_SUBSTITUTIONS = [
     ('com.google.android.apps.nexuslauncher', 'com.android.launcher3'),
     ('com.android.documentsui', 'com.google.android.documentsui'),
     ('@style/Theme.DeviceDefault', '@android:style/Theme.DeviceDefault'),
+    ('com.google.android.dialer.extensions.GoogleDialtactsActivity', 'com.android.dialer.DialtactsActivity'),
+    ('com.google.android.dialer', 'com.android.dialer'),
+    ('com.google.android.apps.messaging', 'com.android.messaging'),
 ]
 
 

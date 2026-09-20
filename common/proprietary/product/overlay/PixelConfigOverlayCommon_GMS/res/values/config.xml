@@ -21,12 +21,12 @@
     <string name="config_emergency_dialer_package" translatable="false">com.google.android.apps.safetyhub</string>
 
     <!-- Colon separated list of package names that should be granted DND access -->
-    <string name="config_defaultDndAccessPackages" translatable="false">com.google.android.GoogleCamera:com.google.android.gms:com.google.intelligence.sense:com.google.android.settings.intelligence:com.google.android.apps.wellbeing:com.google.android.apps.safetyhub:com.google.android.dialer:com.google.android.apps.diagnosticstool</string>
+    <string name="config_defaultDndAccessPackages" translatable="false">com.google.android.GoogleCamera:com.google.android.gms:com.google.intelligence.sense:com.google.android.settings.intelligence:com.google.android.apps.wellbeing:com.google.android.apps.safetyhub:com.android.dialer:com.google.android.apps.diagnosticstool</string>
 
     <!-- An array of packages that can make sound on the ringer stream in priority-only DND
      mode -->
     <string-array name="config_priorityOnlyDndExemptPackages" translatable="false">
-        <item>com.google.android.dialer</item>
+        <item>com.android.dialer</item>
         <item>com.android.server.telecom</item>
         <item>android</item>
         <item>com.android.systemui</item>

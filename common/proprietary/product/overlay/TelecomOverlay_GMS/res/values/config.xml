@@ -5,7 +5,7 @@
 -->
 <resources>
     <!-- Class name for the default main dialer activity [DO NOT TRANSLATE] -->
-    <string name="dialer_default_class" translatable="false">com.google.android.dialer.extensions.GoogleDialtactsActivity</string>
+    <string name="dialer_default_class" translatable="false">com.android.dialer.DialtactsActivity</string>
 
     <!-- Determines if the granting of temporary location permission to the default dialer
          during an emergency call should be allowed. -->

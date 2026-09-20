@@ -4,11 +4,6 @@
      SPDX-License-Identifier: Apache-2.0
 -->
 <resources>
-    <color name="primary">#ff1a73e8</color>
-
-    <!-- 38% Grey800 -->
-    <color name="list_item_selected_background_color">@color/dynamic_color_surface_2_light</color>
-
     <color name="customColorBrandA">@*android:color/system_brand_a_light</color>
 
     <color name="customColorBrandB">@*android:color/system_brand_b_light</color>
@@ -62,6 +57,8 @@
     <color name="customColorWeatherTemp">@*android:color/system_weather_temp_light</color>
 
     <color name="customColorWidgetBackground">@*android:color/system_widget_background_light</color>
+
+    <color name="list_item_selected_background_color">@color/dynamic_color_surface_2_light</color>
 
     <color name="materialColorBackground">@*android:color/system_background_light</color>
 
@@ -196,4 +193,6 @@
     <color name="materialColorTextSecondaryAndTertiaryInverse">@*android:color/system_text_secondary_and_tertiary_inverse_light</color>
 
     <color name="materialColorTextSecondaryAndTertiaryInverseDisabled">@*android:color/system_text_secondary_and_tertiary_inverse_disabled_light</color>
+
+    <color name="primary">#ff1a73e8</color>
 </resources>
